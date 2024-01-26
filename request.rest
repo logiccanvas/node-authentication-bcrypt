@@ -1,0 +1,26 @@
+### REST CLIENT PLUGIN
+## Install Rest Client if you don't want to play with postman and instead  
+## want to test API requests / responses within code editor
+
+
+Get http://localhost:3000/users/
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Lala",
+    "password": "password"
+}
+
+###
+
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+    "name": "Lala",
+    "password": "password"
+}
